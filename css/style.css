@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+header {
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo {
+	padding: 5px;
+    color: rgb(83, 83, 83);
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header .logo img{
+	width: 30px;
+	height: 30px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(83, 83, 83);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover{
+      border-radius: 5%;
+    color: #ffffff;
+    background-color: #ff7819;
+}
+header nav ul li a.active{
+	border-bottom: 3px solid #ff7819;
+	border-radius: 5%;
+}
+#page{
+    width: 100%;
+    text-align: center;
+    padding: 70px 0px 20px 0px;
+    background-color: #dbdbdb;
+}
+.menu-toggle {
+    color: rgb(94, 94, 94);
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+.benner{
+	width: 100%;
+	height: 500px;
+}
+
+/* responsive */
+
+@media (max-width: 700px) {
+    header {
+        padding: 0 20px;
+        position: fixed;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    .benner{
+	width: 100%;
+	height: 250px;
+	}
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s all;
+    }
+
+    header nav.active {
+        left: 0;
+    }
+
+    header nav ul {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        color: rgb(255, 255, 255);
+    }
+    header nav ul li a:hover, header nav ul li a.active{
+    	color: #ffffff;
+    	background-color: #ff7819;
+	}
+    .dropbtn {
+      background-color: #333;
+      border-radius: 5%;
+      color: white  ;
+      padding: 21px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .dropbtn:hover {
+      background-color: #ff7819;
+      color: white;
+    }
+    #active{
+      background-color: #ff7819;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      border-radius: 5%;
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 50px;
+      overflow: auto;
+      z-index: 1;
+    }
+    .dropdown-content a {
+      width: 100px;
+      height: 30px;
+      color: white;
+      padding: 0px 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown a:hover {
+      background-color: #ff7819;
+    }
+    .show {
+      display: block;
+    }
+	
+}
+.footer{
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: #191919;
+    color: white;
+}
+#button{
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+#button:hover{
+    border-color: #ff7819;
+    color: #ff7819;
+}
+#judul{
+    padding: 0px 0px 20px 0px;
+}

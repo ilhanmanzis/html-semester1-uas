@@ -1,0 +1,53 @@
+#gambar-sh{
+	width: 100%;
+	position: revert;
+}
+#text-sh{
+	position: absolute;
+	text-align: center;
+	top: 65px;
+	left: 30%;
+	right: 30%;
+	font-size: 60px;
+	font: bold;
+	font-family: Camphor Pro;
+}
+#text-sh1{
+	position: absolute;
+	text-align: center;
+	top: 170px;
+	left: 30%;
+	right: 30%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh2{
+	position: absolute;
+	text-align: center;
+	top: 1800px;
+	color: white;
+	left: 30%;
+	right: 30%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh3{
+	position: absolute;
+	text-align: center;
+	top: 1850px;
+	color: white;
+	left: 30%;
+	right: 30%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh4{
+	position: absolute;
+	text-align: center;
+	top: 1920px;
+	color: white;
+	left: 10%;
+	right: 10%;
+	font-size: 20px;
+	font-family: arial;
+}

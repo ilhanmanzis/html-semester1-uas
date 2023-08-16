@@ -1,0 +1,11 @@
+#page{
+	width: 100%;
+	text-align: center;
+	padding: 70px 0px 20px 0px;
+	background-color: #dbdbdb;
+}
+#layout{
+	font-family: sans-serif;
+	width: 80%;
+	margin: 0px 10% 0px 10%;
+}

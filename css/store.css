@@ -1,0 +1,57 @@
+#layout{
+	font-family: sans-serif;
+	width: 80%;
+	margin: 0px 10% 0px 10%;
+}
+#table-1{
+	color: #757575;
+	font-size: 35px;
+	font-family: arial;
+}
+.shopee{
+	width: 100%;
+	padding: 0px 0px 40px 0px;
+	text-align: center;
+	background-color: #ffff;
+	font-family: arial;
+}
+#link{
+	color: #ff6700;
+	text-decoration: none;
+	font-size: 20px;
+}
+.lazada{
+	width: 100%;
+	padding: 0px 0px 40px 0px;
+	text-align: center;
+	background-color: #ffff;
+	font-family: arial;
+}
+.toko{
+	width: 100%;
+	padding: 0px 0px 40px 20px;
+	background-color: #ffff;
+	font-family: arial;
+}
+#nama-toko{
+	width: 40%;
+	background-color: #b0b0b0;
+	padding: 0 10px;
+	color: white;
+}
+#judul{
+	color: #424242;
+}
+#alamat{
+	color: #757575;
+	font-size: 12px;
+}
+#jam{
+	color: #757575;
+	font-size: 12px;
+	text-align: top;
+}
+#contact{
+	color: #757575;
+	font-size: 12px;
+}

@@ -1,0 +1,94 @@
+#gambar-sh{
+	width: 100%;
+	position: revert;
+}
+#text-sh{
+	position: absolute;
+	text-align: center;
+	top: 65px;
+	left: 30%;
+	right: 30%;
+	font-size: 60px;
+	font: bold;
+	font-family: Camphor Pro;
+}
+#text-sh1{
+	position: absolute;
+	color: #333333;
+	text-align: center;
+	top: 230px;
+	left: 20%;
+	font-size: 50px;
+	font-family: arial;
+}
+#text-sh2{
+	color: #333333;
+	position: absolute;
+	text-align: center;
+	top: 310px;
+	left: 20%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh3{
+	position: absolute;
+	text-align: left;
+	top: 1300px;
+	left: 20%;
+	color: white;#c3e4f4
+	right: 70%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh5{
+	position: absolute;
+	text-align: left;
+	top: 1350px;
+	left: 20%;
+	color: #c3e4f4;
+	right: 60%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh4{
+	position: absolute;
+	text-align: justify;
+	top: 1450px;
+	color: white;
+	left: 20%;
+	right: 52%;
+	font-size: 15px;
+	font-family: arial;
+}
+#text-sh6{
+	position: absolute;
+	text-align: justify;
+	top: 1820px;
+	color: white;
+	left: 20%;
+	right: 52%;
+	font-size: 30px;
+	font-family: arial;
+}
+#text-sh7{
+	position: absolute;
+	text-align: justify;
+	top: 1870px;
+	color: white;
+	left: 20%;
+	right: 45%;
+	color: #808080;
+	font-size: 28px;
+	font-family: arial;
+}
+#text-sh8{
+	position: absolute;
+	text-align: justify;
+	top: 1970px;
+	color: white;
+	left: 20%;
+	right: 40%;
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+}
